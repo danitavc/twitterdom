@@ -1,0 +1,100 @@
+/* Reseteo márgenes browser y color body */
+body {
+	margin: 0 auto;
+	background-image: url(../img/twitterbackground.jpg);
+}
+.container {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+/* Estilos generales */
+
+.center {
+	text-align: center;
+}
+
+/* Estilos Header */
+header {
+	background-color: #FFF;
+	text-align: center;
+}
+
+header div img {
+	width: 10em;
+}
+
+/* Estilos imágen y su contenedor */
+
+textarea {
+	width: 70%;
+	height: 4em;
+	color: #4E4D53;
+	font-size: 15px;
+	padding: 1em;
+	border-radius: 1em;
+	border: none;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+span {
+	color: white;
+	font-family: sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* Estilos botón agregar */
+#boton {
+	background-color: #66AEC7;
+	border: 0px;
+	cursor: pointer;
+	text-align: center;
+	margin: 3em auto;
+	width: 130px;
+	height: 30px;
+	display: block;
+	color: #FFF;
+}
+
+
+#boton:focus, textarea:focus{
+	outline: none;
+}
+
+/* Estilos contenedor comentarios */
+#cont {
+	border-radius: 0.4em;
+	width: 51em;
+	margin: 0 auto;
+	color: #4E4D53;
+	text-align: left;
+	margin-bottom: 6em;
+}
+
+#cont span {
+	margin-left: 1em;
+}
+
+#contenedor div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: white;
+}
+
+.colorUno {
+	color: purple;
+}
+
+.colorDos {
+	color: pink;
+}
+
